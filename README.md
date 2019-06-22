@@ -3,44 +3,34 @@
 
 ![](https://blogdoiphone.com/wp-content/uploads/2018/05/AppStore.jpg)
 
-## Sobre o desenvolvimento
+## Sobre a análise desenvolvida
 
-Escolhi utilizar esse repositório, para hospedar o arquivo `.csv`, com os dados para análise, e utilizar a ferramenta de BI da Microsoft, o **Power BI**.
+Fiz a hospedagem do dataset em `.csv`,  e a escolha da ferramenta de DataViz, a ferramenta de BI da Microsoft, o **Power BI Desktop**.
+Utilizei a ultima versão da ferramenta, a Versão: 2.70.5494.761 64-bit (junho de 2019), juntamente com alguns visuais personalizados dentro da biblioteca do Power BI, o **Marketplace**.
 
-Os indicadores criados estão no Dashboard criado com extensão `.pbix`, e pode ser feito download do mesmo para análise.
-Também poderá ver o link de acesso ao arquivo publicado, para visualização e avaliação via navegador de preferência.
+Os indicadores criados, estão no Dashboard com extensão `.pbix`, do qual é necessário ter a versão **Power BI Desktop** instalado, para que consiga fazer download, e utilizar o mesmo.
 
-Aproveite seus indicadores!!!
+Caso não queira fazer instalação do mesmo, abaixo segue o link de acesso ao arquivo publicado na web, para visualizaçãodos indicadores:
+
+https://app.powerbi.com/view?r=eyJrIjoiMjFhZjg3ODgtYjFmZC00MzU5LTliYjktOTA3NTVmYWQwZjhmIiwidCI6IjdlNjVmZWY2LWFkYjQtNGZmMC05YWQ3LTViNzM0ZGI4YmU5NiJ9
 
 
-## Sobre o Teste
+### A análise realizada
 
-Deixei abaixo a descrição do teste solicitado, para melhor visualização entre arquivo criado, e problema definido.
+A simulação criada, foi com intenção de orientar um empresário, que possui seu aplicativo na App Store. Os indicadores tem intenção de auxilia-lo a tomar uma melhor decisão em relação ao seu App, e comparado aos concorrentes, como está sua posição no ranking dos 10 primeiros aplicativos.
 
-### O problema proposto
+Para isso, foram criados 6 painéis, com indicadores avaliando os aplicativos de formas diferentes, e com informações sobre os próprios app's, fornecidos no dataset. Foi implementado, uma breve descrição do app, para identificação dos mesmos.
 
-Uma empresa que fornece aplicativos de música precisa acompanhar regularmente a evolução das métricas de aplicativos de música disponíveis na Apple Store. Hoje, para que esse acompanhamento seja feito, um profissional precisa diariamente realizar a coleta desses dados atualizados, realizar a transformação desses dados, criar as visualizações necessárias e enviar o relatório gerado por e-mail.
+Os indicadores criados, para analisar os **Top 10 App's**, foram:
 
-Atualmente a empresa não dispõe de nenhuma ferramenta que faça esse trabalho de forma automatizada. Além disso, esse profissional está envolvido em diversas outras atividades, fazendo com que, muitas vezes, esses relatórios deixem de ser enviados.
+1. **Top 10 Ultima Versão**: Foi criado um **cálculo de pontos**, para classificação desses app's, que é a **multiplicação de sua nota de avaliação média, pela quantidade de avaliações da ultima versão do app**. Com esse critério, os 10 primeiros mais bem avaliados, foram eleitos para essa lista!
 
-### Objetivo a ser alcançado
+2. **Top 10 Avaliação Geral**: Foi criado um **cálculo de pontos**, para classificação desses app's, que é a **multiplicação de sua nota de avaliação média, pela quantidade de avaliações gerais do app, independente da versão**. Com esse critério, os 10 primeiros mais bem avaliados, foram eleitos para essa lista!
 
-A empresa deseja criar uma solução de Dashboard que automatize essas atividades e você será o responsável por essa atividade.
-A partir dos dados disponibilizados, será necessário criar uma tela de Dashboard que apresente as seguintes informações:
+3. **Top 10 Qtd Avaliações Ultima Versão**: Nesta análise, os Top 10 App's foram eleitos pela **quantidade de avaliações em sua ultima versão lançada na App Store**. Essa análise é *independente da sua nota média*!
 
-- Ranking dos 10 Aplicativos mais bem avaliados em sua última versão;
-- Ranking dos 10 Aplicativos mais bem avaliados no geral;
-- Ranking dos 10 Aplicativos com maior qtde de avaliações em sua última versão;
-- Ranking dos 10 Aplicativos com maior qtde de avaliações no geral;
-- Distribuição percentual da Classificação Indicativa dos Aplicativos (Percentual por classificação indicativa);
-- Média do preço dos aplicativos de música em reais (considerando $ 1 = R$ 3,80|considerando todos os apps de música);
-- Média do tamanho dos aplicativos de música em Mega Bytes;
-- Avaliação no geral dos aplicativos de ID: 284035177, 284993459, 292738169, 293523031, 298206806;
-- Quantidade de Avaliações no geral dos aplicativos de ID: 284035177, 284993459, 292738169, 293523031, 298206806;
 
-### Dados disponíveis
 
-Dentro do arquivo .csv, estão as colunas com as seguintes informações.
 
 
 |Nome Coluna| significado |
