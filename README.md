@@ -59,7 +59,7 @@ Os indicadores criados, para analisar os **Top 10 App's**, foram:
 
 5. **Classificação dos App's**: Indicadores sobre os *gêneros, valor(em reais), Tamanho e Classificação Indicativa* dos aplicativos.
 
-6.**Avaliação Específica de Aplicativos**:  Neste painel de indicadores, estão informações sobre aplicativos específicos de músico. São indicadores gerais de *Nota Média, Gênero, Avaliações da Ultima Versão, Avaliações Gerais, Tamanho, Valor do App (em reais) e classificação indicativa* dos aplicativos listados.
+6. **Avaliação Específica de Aplicativos**:  Neste painel de indicadores, estão informações sobre aplicativos específicos de músico. São indicadores gerais de *Nota Média, Gênero, Avaliações da Ultima Versão, Avaliações Gerais, Tamanho, Valor do App (em reais) e classificação indicativa* dos aplicativos listados.
 
 
 
