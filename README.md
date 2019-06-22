@@ -1,7 +1,7 @@
-# Repositório de testes, para a cognitivo.ai.
->Este repositório possui os **arquivos trabalhados, para resolução de problema, do teste da cognitivo.ai**. 
+# Análise dos Aplicativos da App Store
+>Este repositório possui os **arquivos trabalhados, sobre o Dataset no Mobile App Store, localizado no Kaggle no endereço: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/**. 
 
-![](https://media.licdn.com/dms/image/C4E1BAQF2jIU3kenxdw/company-background_10000/0?e=2159024400&v=beta&t=KUR75HhB1UxOR5vzlkmoqouC2IZXl0WSrW-t1D1yU88)
+![](https://blogdoiphone.com/wp-content/uploads/2018/05/AppStore.jpg)
 
 ## Sobre o desenvolvimento
 
