@@ -6,9 +6,9 @@
 
 Para criar essa análise, utilizei um dataset hospedado no Kaggle, chamado **Mobile App Store**, localizado no endereço: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps/**. 
 
-Utilizei apenas um dos dois arquivos hospedados no kaggle, chamada **AppleStore.csv**. Fiz a hospedagem do dataset também aqui, disponível para dowload.
+Utilizei o dataset chamado **AppleStore.csv**.  Nele temos dados sobre mais de 7.200 aplicativos na App Store. Esse dataset está tambén en anexo aqui, para dowload.
 
-As colunas do dataset são:
+As colunas que utilizei para análise e criação do dataviz, que estão neste dataset, são:
 
 |Nome Coluna| Descrição |
 |------------|------------|
@@ -28,7 +28,8 @@ As colunas do dataset são:
 ## Sobre a Ferramenta utilizada como DataViz
 
 A escolha da ferramenta de DataViz, foi a ferramenta de BI da Microsoft, o **Power BI Desktop**.
-Utilizei a ultima versão da ferramenta, a Versão: 2.70.5494.761 64-bit (junho de 2019), juntamente com alguns visuais personalizados dentro da biblioteca do Power BI, o **Marketplace**.
+Utilizei a ultima versão da ferramenta, a Versão: 2.70.5494.761 64-bit (junho de 2019), juntamente com alguns visuais personalizados, que adquiri na biblioteca de visualizações do Power BI, o **Marketplace**.
+ 
 
 ## A Análise do Dataset
 
@@ -61,6 +62,7 @@ Os indicadores criados, para analisar os **Top 10 App's**, foram:
 
 6. **Avaliação Específica de Aplicativos**:  Neste painel de indicadores, estão informações sobre aplicativos específicos de músico. São indicadores gerais de *Nota Média, Gênero, Avaliações da Ultima Versão, Avaliações Gerais, Tamanho, Valor do App (em reais) e classificação indicativa* dos aplicativos listados.
 
+Após análise concluída, os dados podem apresentar insights importantes para a empresa de aplicativos.
 
 
 
